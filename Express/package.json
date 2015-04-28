@@ -1,0 +1,7 @@
+{
+    "name": "cj_express092",
+    "description": "a sample Express app",
+    "dependencies": {
+	"express": "3.4.x"
+    }
+}

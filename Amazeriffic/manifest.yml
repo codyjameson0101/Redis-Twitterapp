@@ -1,0 +1,12 @@
+---
+applications:
+- name: cj_amazeriffic
+  memory: 512M
+  buildpack: nodejs_buildpack
+  command: node server.js
+  instances: 1
+  memory: 256M
+  services:
+  - my_mongolab
+
+
